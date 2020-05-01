@@ -24,3 +24,11 @@ removes a previously set event listener (as shown above)
 ```js
 p.removeEventListener('click', helloWorld)
 ```
+
+## Note on Invoking Functions
+
+```js
+// notice that the function does not have () trailing after it
+p.addEventListener('click', helloWorld)
+```
+- Adding the parantheses to the function INVOKES it (or calls it to perform its assigned role). Sometimes, like in the case of adding an event listener, you don't want to invoke the function yet - just identify it. To identify a function, drop the parantheses and just identify the name of the function. This tells the event listener which function to call, when the time comes for it to be called.
