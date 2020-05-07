@@ -36,6 +36,8 @@ document.addEventListener('click', function() {
 
 // equivalent to:
 document.addEventListener('click', () => console.log('Click'))
+
+// fyi: adding an event listener to the document ^ will bind an event to anywhere on the page
 ```
 
 

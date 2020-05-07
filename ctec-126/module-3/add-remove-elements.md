@@ -39,7 +39,7 @@ It can also *move existing nodes* from their current position to the newly speci
 If you want to copy a node, use the `cloneNode()` method.
 
 ```js
-elemenent.appendChild(aChild)
+element.appendChild(aChild)
 
 // chaining may not work as expected
 // due to appendChild() returning the child element
