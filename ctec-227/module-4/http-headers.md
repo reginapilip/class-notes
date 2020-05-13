@@ -9,7 +9,7 @@ headers_list()
 ```
 
 ## Diagram of HTTP Request Structure
-![diagram of HTTP Request Structure (tutsplus)](https://cdn.tutsplus.com/net/uploads/legacy/511_http/request_header.png)
+![diagram of HTTP Request Structure (tutsplus)](img/request_header.png)
 
 - First line consists of three parts
   - `method` type of request
@@ -21,7 +21,7 @@ headers_list()
   - `protocol` HTTP and its version
 - Following lines contain HTTP headers as "name: value" pairs
 
-![diagram of HTTP Response Structure](https://cdn.tutsplus.com/net/uploads/legacy/511_http/response_header.png)
+![diagram of HTTP Response Structure](img/response_header.png)
 
 - First line: protocol (HTTP) + status code
   - [Types of status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
