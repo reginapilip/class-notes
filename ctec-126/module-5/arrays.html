@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+
+<body>
+    <h1>Outputs to Console</h1>
+
+
+    <script>
+        // declaration
+        const colors = ["red", "orange", "yellow"]
+
+        console.log("=> ACCESSING AN ELEMENT")
+        // accessing elements
+        // using index position
+        const firstColor = colors[0]
+        console.log(`The first color in the array is ${firstColor}`)
+
+        console.log("=> ACCESSING THE LAST ELEMENT")
+        console.log(`The last color in the array is ${colors[colors.length - 1]}`)
+
+
+        console.log("=> CHANGING AN ELEMENT")
+        // changing an element in the array
+        colors[0] = "purple"
+        console.log(`The first color in the array is now ${colors[0]}`)
+
+        // looping through an array
+        console.log("=> LOOPING THROUGH AN ARRAY")
+        console.log("-- for loop")
+        for (let i = 0; i < colors.length; i++) {
+            const element = `Color ${i + 1}: ${colors[i]}`
+            console.log(element)
+        }
+
+        console.log("-- forEach loop")
+        let n = 0;
+        colors.forEach(color => {
+            console.log(`Color: ${color}`)
+        })
+    </script>
+</body>
+
+</html>

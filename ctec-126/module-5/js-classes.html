@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Classes</title>
+</head>
+
+<body>
+    <h1>Outputs to Console</h1>
+
+    <script>
+        // create a constructor function
+        function Apple(type) {
+            // properties
+            this.type = type
+            this.color = "red"
+
+            // methods
+            this.getInfo = getAppleInfo
+
+            // internal method
+            // this.getInfo = () => {
+            //     return this.color + ' ' + this.type + ' ' + 'apple'
+            // }
+        }
+
+        // external method
+        // see how to write this as an internal method above 
+        function getAppleInfo() {
+            return this.color + ' ' + this.type + ' ' + 'apple'
+        }
+
+        // creating an instance of Apple
+        const apple = new Apple('macintosh')
+        // overrides default color
+        apple.color = "reddish"
+        // calls method
+        alert(apple.getInfo())
+    </script>
+</body>
+
+</html>
