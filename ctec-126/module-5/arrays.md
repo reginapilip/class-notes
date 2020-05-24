@@ -81,7 +81,7 @@ a "multi-purpose" method - can be used to add and remove elements (can also remo
 array.splice(0,1) // removes first element
 ```
 
-### `array.concate(array)`
+### `array.concat(array)`
 merges arrays together
 
 ```js
@@ -116,4 +116,4 @@ Visit W3Schools for more information on array methods and a complete list of arr
 
 ### Resources
 - [W3Schools: Arrays](https://www.w3schools.com/js/js_arrays.asp)
-- [W3Schools: Array Methods]()
+- [W3Schools: Array Methods](https://www.w3schools.com/js/js_array_methods.asp)
