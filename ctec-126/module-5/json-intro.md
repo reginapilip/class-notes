@@ -58,3 +58,4 @@ parent['childObject'][childObjectIndex]['childObjectProperty'][childObjectProper
 - [Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
 - [Validating JSON](https://jsonlint.com/)
 - [Web Dev Simplified Tutorial](https://www.youtube.com/watch?v=iiADhChRriM)
+- [Body.json() Method - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Body/json)
